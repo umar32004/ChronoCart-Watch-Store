@@ -41,9 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsAddress.cs" />
     <Compile Include="clsDataConnection.cs" />
+    <Compile Include="clsOrder.cs" />
+    <Compile Include="clsOrderCollection.cs" />
+    <Compile Include="clsPayment.cs" />
+    <Compile Include="clsPaymentCollection.cs" />
+    <Compile Include="clsPaymentUser.cs" />
     <Compile Include="clsProduct.cs" />
+    <Compile Include="clsProductCollection.cs" />
+    <Compile Include="clsProductUser.cs" />
+    <Compile Include="clsUser.cs" />
+    <Compile Include="clsUserCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
